@@ -6,11 +6,11 @@ environment:
     PYTHON_ARCH: "32"
 
     CONAN_REFERENCE: "TBB/4.4.4"
-    CONAN_USERNAME: "conan"
-    CONAN_LOGIN_USERNAME: "conanbot"
+    CONAN_USERNAME: "kazuki"
+    CONAN_LOGIN_USERNAME: "kazuki"
     CONAN_CHANNEL: "testing"
     CONAN_STABLE_BRANCH_PATTERN: "stable/*"
-    CONAN_UPLOAD: "https://api.bintray.com/conan/conan-community/conan"
+    CONAN_UPLOAD: "https://api.bintray.com/conan/karasusan/conan"
     CONAN_UPLOAD_ONLY_WHEN_STABLE: 1
 
     matrix:
